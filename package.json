@@ -18,11 +18,13 @@
         "prettier": "^2.5.1",
         "prettier-plugin-svelte": "^2.5.0",
         "svelte": "^3.44.0",
-        "svelte-adapter-github": "^0.0.1-next.0"
+        "svelte-adapter-github": "^0.0.1-next.0",
+        "svelte-popperjs": "^1.2.9"
     },
     "type": "module",
     "dependencies": {
         "gh-pages": "^3.2.3",
-        "svelte-collapse": "^0.0.4"
+        "svelte-collapse": "^0.0.4",
+        "svelte-media-query": "^1.1.2"
     }
 }

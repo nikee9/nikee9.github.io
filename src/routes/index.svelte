@@ -1,21 +1,21 @@
 <script>
-import Intro from "../Components/Intro.svelte";
-import Welcome from "../Components/Welcome.svelte";
-
+	import Intro from '../Components/Intro.svelte';
+	import Splash from '../Components/Splash.svelte';
 </script>
 
 <div class="container">
-    <Welcome/>
-    <Intro/>
+	<Splash />
+	<Intro />
 </div>
 
 <style>
-.container{
-    flex: 1;
-    height: calc(100% - var(--nav-height));
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
+	.container {
+		margin-top: var(--nav-height);
+		flex: 1;
+		height: 100%;
+		width: 100%;
+		overflow-y: scroll;
+		display: flex;
+		flex-direction: column;
+	}
 </style>
